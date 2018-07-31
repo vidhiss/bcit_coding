@@ -52,6 +52,15 @@ h4 {
     margin-top: 5px;
     margin-bottom: 5px;
 }
+
+q{
+    font-size: 80%;
+}
+
+ol {
+    font-size: 80%;
+    margin-left: 20px;
+}
 /* --------------------------*/
 /* HEADER */
 /* --------------------------*/
@@ -99,11 +108,16 @@ section {
     
 }
 
+aside {
+    background-color: aliceblue;
+}
+
+
 /* --------------------------*/
 /* EXPERIENCE */
 /* --------------------------*/
 
-.expo {
+#expo {
     float: left;
     width: 45em;
     margin-left: 50px;
@@ -116,12 +130,12 @@ section {
 
 .expo-right {
     float: left;
-    width: 25em;
+    width: 27em;
 }
 
 .expo-left {
     float: left;
-    width: 20em;
+    width: 18em;
 }
 
 .expo-left dl{
@@ -137,4 +151,54 @@ section {
 .expo-2 {
     float: left;
     padding-top: 20px;
+}
+
+table {
+    font-size: 70%;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* --------------------------*/
+/* CONTACT */
+/* --------------------------*/
+
+#contact {
+    float: left;
+    width: 45em;
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+contact-img {
+    width: 304px;
+}
+
+form {
+    float: right;
+    width: 28em;
+    margin-top: -410px;
+}
+
+/* --------------------------*/
+/* FOOTER */
+/* --------------------------*/
+
+footer {
+    width: 45em;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
 }

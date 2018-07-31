@@ -12,33 +12,30 @@ Description
 Your task is to create an HTML document that is your resume as it stands now. You can decide how you structure your document, but you must use the following elements in your document:
 The body element with:
 //At least two heading elements (e.g., h1, h3)
-A p, span, i, b, an abbr, and a smaller element
-Each of the three lists (ordered, unordered, and definition)
-Anchors that link within your document and outside of your document (e.g., to BCIT’s web site)
-Use several br elements
+// A p, span, i, b, an abbr, and a smaller element
+// Each of the three lists (ordered, unordered, and definition)
+//Anchors that link within your document and outside of your document (e.g., to BCIT’s web site)
+//Use several br elements
 //The meta element and the title inside of your head element
 //Use the following semantic elements:
-//header, //nav, //article, aside, figure, section, footer
+//header, //nav, //article, //aside, //figure, //section, //footer
 
 Create a form with the following inputs and characteristics:
 a login name, required and accepts between 8 and 20 upper/lower case characters (no numbers)
 a password that accepts between 10 and 20 upper/lower case characters – and numbers too
 an age field going from 18 to 65
 a reset button
-a submit button
+//a submit button
 the login name and password are required
-the login name, password, and age field require a placeholder
+//the login name, password, and age field require a placeholder
 wrap all inputs inside of a fieldset and use a legend (with the name ‘user profile’)
-Add an image to page (for use with the figure) and link to dummyimage.com
+//Add an image to page (for use with the figure) and link to dummyimage.com
 
-Create a table that contains three courses you are currently enrolled in with the following columns:
-Course name
-Course number
-Course credits
+//Create a table that contains three courses you are currently enrolled in with the following columns:
+//Course name
+//Course number
+//Course credits
 
 Once you have completed, ensure that your document is valid. Use:
 https://html5.validator.nu/
 To check your document. Once it is correct, show your work to your instructor in lab for marks.
-
-
-<p>My mother has <span style="color:blue;font-weight:bold">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold">dark green</span> eyes.</p>
